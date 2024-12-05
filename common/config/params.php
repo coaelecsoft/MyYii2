@@ -6,6 +6,6 @@ return [
     'senderName' => 'Example.com mailer',
     'user.passwordResetTokenExpire' => 3600,
     'user.passwordMinLength' => 8,
-    'website' =>'https://new.alternativno.org',
-    'webSite' =>'https://new.alternativno.org',
+    'website' =>'https://alternativno.org',
+    'webSite' =>'https://alternativno.org',
 ];

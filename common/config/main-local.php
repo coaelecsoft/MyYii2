@@ -4,9 +4,9 @@ return [
     'components' => [
         'db' => [
             'class' => \yii\db\Connection::class,
-            'dsn' => 'mysql:host=host.name;dbname=name_db',
-            'username' => 'usern_name',
-            'password' => 'password',
+            'dsn' => 'mysql:host=pdb1031.runhosting.com;dbname=2911454_25alt',
+            'username' => '2911454_25alt',
+            'password' => '2014.Sanja.Alex',
             'charset' => 'utf8',
         ],
         'mailer' => [
