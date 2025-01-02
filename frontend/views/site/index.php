@@ -192,7 +192,9 @@ $this->registerMetaTag(['property' => 'twitter:image', 'content' => $img_path . 
                     <div class="sub-article-container">
                         <?php
                         foreach ($slave->slaves as $key => $subslave) {
-                            if ($subslave->page_active == "1" and $subslave->menu_option == "1") {
+                            
+                                //next condition show row if row set to page active and menu option set to show in menu and show in menu and home.
+                            if ($subslave->page_active == "1" and ($subslave->menu_option == "1" or $subslave->menu_option == "2" )) {
                                 ?>
 
                                 <article class="sub-article" title="<?= $subslave->$title_name ?>">

@@ -138,7 +138,7 @@ $menu_title_name = 'menu_title_' . $lang_link;
                                 if ($mainmenu->slaves) {
 
                                     foreach ($mainmenu->slaves as $slave) {
-                                        if ($slave->menu_option == '1') {
+                                        if ($slave->menu_option == '1' or $slave->menu_option == '2') {
                                             $submenu[] = $slave;
                                         }
                                     }
@@ -302,7 +302,7 @@ $menu_title_name = 'menu_title_' . $lang_link;
                                     if ($mainmenu->slaves) {
 
                                         foreach ($mainmenu->slaves as $slave) {
-                                            if ($slave->menu_option == '1') {
+                                            if ($slave->menu_option == '1' or $slave->menu_option == '2') {
                                                 $submenu[] = $slave;
                                             }
                                         }
